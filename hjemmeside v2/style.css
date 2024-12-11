@@ -4,6 +4,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.over {
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.lbuffer {
+    float: left;
+    margin-right: 10px;
+
+}
 
 
 .navbar {

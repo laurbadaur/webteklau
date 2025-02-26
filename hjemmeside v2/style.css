@@ -1,11 +1,21 @@
 body {
     margin: 30px 300px;
+
+    padding: 10px;
     
     font-family: Arial, Helvetica, sans-serif;
      /* Adjust based on navbar width */
+     background-color: white;
+    
+
 }
 
-
+html {
+    background-image: url("billeder/kalda.png");  /* Specify the image file */
+    background-repeat: repeat;                        /* Make the image repeat */
+    background-position: top left;                    /* Start the repetition from the top-left corner */
+    background-size: auto;                            /* Keep the image at its original size */
+}
 
 .over {
     font-size: 5vh;

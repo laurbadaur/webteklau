@@ -1,28 +1,33 @@
 body {
-    margin: 30px;
-    margin-top: 80px;
+    margin: 30px 300px;
+    
     font-family: Arial, Helvetica, sans-serif;
+     /* Adjust based on navbar width */
 }
+
+
 
 .over {
     font-size: 5vh;
     font-weight: bold;
 }
 
-.lbuffer {
-    float: left;
-    margin-right: 10px;
 
-}
 
 
 .navbar {
-    background-color: black;
-    padding: 10px 20px;
+    background-color: rgb(23, 23, 23);
+    padding: 0px 0px ;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+
+    height: 100vh; /* Make it full height */
+    width: 120px; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking */
+    align-items: center; /* Center items horizontally */
 }
 
 .nav-list {
@@ -30,21 +35,34 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-start;
+    
+    /*justify-content: flex-start;*/
+
+    flex-direction: column; /* Stack items vertically */
+    width: 100%; /* Make items stretch to full width */
+}
+
+.nav-item {
+    width: 100%; /* Make each item take full width */
+
 }
 
 .nav-item a {
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 15px  0px;
     display: block;
     transition: background-color 0.5s, border-radius 0.3s;
-    margin: 0 10px;
+    
+    text-align: left; /* Aligns text to the left */
+    width: 100%; /* Makes sure the clickable area extends fully */
+    text-indent: 20px; /* Moves text right without affecting padding */
+    font-weight: bold;
 }
 
 
 .nav-item a:hover{
     background-color: #575757;
-    border-radius: 50px;
+    
 }
 

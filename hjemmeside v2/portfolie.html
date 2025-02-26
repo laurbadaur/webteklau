@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolie</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -11,11 +11,12 @@
     <nav class="navbar">
         <ul class="nav-list">
             <li class="nav-item"><a href="index.html">Hjem</a></li>
-            <li class="nav-item"><a>222</a></li>
+            <li class="nav-item"><a>Seje ting</a></li>
             <li class="nav-item"><a href="portfolie.html">Portfolie</a></li>
         </ul>
     </nav>
     
+    <center>
         <p>Her kan du læse om mine forskellige projekter</p>
 
     <details>
@@ -29,7 +30,7 @@
     <p>Her har vi valgt at bruge blå toner til vores tekstkasser og baggrund, eftersom Boston lå ud til havet ¯\_(ツ)_/¯.
     Derudover brugte vi en cremefarve til teksten for at man nemt kunne se forskel uden at der var alt for meget kontrast.</p>
     
-    <img src="billeder/gcp hjemmeside.png" width="40%" >
+    <img src="billeder/gcp hjemmeside.png" width="100%" >
 
     <h3>Eksempel på html</h3>
     <p>Denne html-bid viser hvordan vi har lavet vores topnav med html. Først har vi en div med en id som navbar, som vi hvordan
@@ -37,7 +38,7 @@
     som vi har kaldt for index.html, der har sin CSS-class active. Heri har vi brugt tagget strong, som gør teksten
     bold. Næste tag er en div for de links i vores navbar der skal være i dens højre side, og inden  i den har 
     vi så linksne. De linker så til hvert deres html-fil og har hvert deres navn.</p>
-    <img src="billeder/navbar kode.png" width="40%">
+    <img src="billeder/navbar kode.png" width="100%">
     <h3>Eksempel på CSS</h3>
     <p>Først giver vi vores navbar sin farve, og 
         lader derefter dens position være fixed, samt sætter afstanden
@@ -50,7 +51,7 @@
         Det sidste, transition, kom fra et forsøg på at animere, at navbaren "gled ned" når man scrollede op på hjemmesiden, 
         men det virkede dog ikke og nu tjener den intet formål.
     </p>
-    <img src="billeder/navbar css.png" width="40%">
+    <img src="billeder/navbar css.png" width="100%">
     </details>
     <details>
         <summary>
@@ -76,13 +77,14 @@ I den forbindelse skal I have fokus på brugeren hvor I skal
 I logbogen skal I dokumentere arbejdsprocessen og produktet undervejs.
 
 <h2>Vores program</h2>
+<h3>Kernefaciliteter og effekterne</h3>
 <p>Som løsning på denne problemstilling har vi udviklet et program, der kan identificere et "spænd" (uddybes senere) af en farve, og herefter ændre RGB-værdierne af pixelsne
     i dette spænd. Det, som vi helt konkret har brugt det til, er at ændre på menneskers hudfarve, f.eks. ved at gøre 
     Elon Musk grøn, så han ligner den marsmand, han så stærkt ønsker at blive. Man kan ændre i den tilføjede RGB-værdi 
 ved at skyde på slidersne.
 </p>
 
-<img src="billeder/grøn elon.png" width="40%">
+<img src="billeder/grøn elon.png" width="100%">
 
 <h3>
     Manipulation på pixelniveau 
@@ -103,14 +105,16 @@ ved at skyde på slidersne.
     pågældende farve lægges til. Det sker, når vi lægger hhv. badjust, radjust og gadjust til.
     
 </p>
-<img src="billeder/kodebilled.png" width="50%">
+<img src="billeder/kodebilled.png" width="100%">
 <h3>
     Brugertesting og sekundære-faciliteter
 </h3>
 <p>
     I starten af programmets udvikling skulle man manuelt ændre i den nye farve inde i koden, så vi tilføjede sliders så
     man kunne gøre det nemmere. Under brugertesting fandt vi ud af, at man evt. kunne lave tekst-felter uden for 
-    slidersne så man stadig kunne taste RGB-værdien ind, samt en drag-n-drop funktion så man nemmere uploade filen.
+    slidersne så man stadig kunne taste RGB-værdien ind, samt en drag-n-drop funktion så man nemmere uploade filen. 
+    Derudover diskuterede vi også, hvordan man kunne lave et program, der beholdte en pixels lysstyrke (r+b+g-værdi),
+    således at skyggerne fortsatte med at være tydelige når man skruede op for farverne.
 
 </p>
 <break></break>
@@ -122,6 +126,6 @@ ved at skyde på slidersne.
 
 
 
-
+</center>
 </body>
 </html>
